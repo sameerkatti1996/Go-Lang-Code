@@ -5,7 +5,7 @@ import (
 )
 
 func selectionSort(data []int, start, end int) []int {
-  var indexOfLowest int
+	var indexOfLowest int
 	var lowest int
 
 	for i := start; i < end; i++ {
